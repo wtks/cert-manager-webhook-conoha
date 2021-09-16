@@ -3,7 +3,7 @@ name: build image
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
   IMAGE_NAME: cert-manager-webhook-conoha
